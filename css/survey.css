@@ -1,0 +1,86 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input:not([type="radio"]) {
+  width: 100%;
+  /*margin-bottom: 15px;*/
+}
+
+input, textarea, select {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background-color: #d3d3d3;
+}
+
+label[for="albums"], label[for="favSong"] {
+  margin: 10px 0;
+}
+
+label[for="emailInput"] {
+  margin-top: 12px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 20px;
+
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: none;
+  border: 2px solid #781125;
+}
+
+.container{
+  text-align: center;
+}
+.survey {
+  margin-top: 24px;
+}
+.newsletter{
+  margin-top: 22px;
+  text-align: right;
+}
+
+#hint {
+  font-style: italic;
+  font-size: .850rem;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.submitButton {
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
